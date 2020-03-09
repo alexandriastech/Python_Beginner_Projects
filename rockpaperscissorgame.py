@@ -27,7 +27,7 @@ while player_points != 5:
         else:  # computer chose scissors
             player_points += 1
             print(f"Player choice: {player_choice}. Computer choice: {computer_choice}. You won this round.")
-    elif player_choice == "scissors":  # player chooses scissors
+    elif player_choice == "scissors":  # -------------------------player chooses scissors
         if computer_choice == "rock":
             print(f"Player choice: {player_choice}. Computer choice: {computer_choice}. Better luck next time!")
         else:  # computer chose paper, you chose scissors:
